@@ -1,5 +1,5 @@
 {
-  "name": "hwa-ripple-address-codec",
+  "name": "hwa-hwa-ripple-address-codec",
   "version": "1.0.0",
   "description": "[![NPM Version][npm-version-image]][npm-url] [![NPM Downloads][npm-downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Test Coverage][coveralls-image]][coveralls-url]",
   "main": "jest.config.js",
@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ln1778/hwa-ripple-address-codec.git"
+    "url": "git+https://github.com/ln1778/hwa-hwa-ripple-address-codec.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ln1778/hwa-ripple-address-codec/issues"
+    "url": "https://github.com/ln1778/hwa-hwa-ripple-address-codec/issues"
   },
-  "homepage": "https://github.com/ln1778/hwa-ripple-address-codec#readme"
+  "homepage": "https://github.com/ln1778/hwa-hwa-ripple-address-codec#readme"
 }
