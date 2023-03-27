@@ -13,7 +13,7 @@
 - Initial pass at linting this codebase with new rules
 
 ## 4.2.0 (2021-11-15)
-- Converts hwa-ripple-address-codec into a monorepo with ripple-binary-codec,
+- Converts hwa-ripple-address-codec into a monorepo with hwa-ripple-binary-codec,
   hwa-ripple-keypairs, and xrpl. Changes to build tooling but no new features or
   bug fixes
 
