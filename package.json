@@ -1,32 +1,23 @@
 {
   "name": "hwa-ripple-address-codec",
-  "version": "0.01",
-  "description": "encodes/decodes base58 encoded XRP Ledger identifiers",
-  "files": [
-    "dist/*",
-    "build/*"
-  ],
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "license": "ISC",
-  "dependencies": {
-    "base-x": "^3.0.9",
-    "create-hash": "^1.1.2"
+  "version": "1.0.0",
+  "description": "[![NPM Version][npm-version-image]][npm-url] [![NPM Downloads][npm-downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Test Coverage][coveralls-image]][coveralls-url]",
+  "main": "jest.config.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ln1778/hwa-ripple-address-codec.git"
+    "url": "git+https://github.com/ln1778/hwa-ripple-address-codec.git"
   },
-  "prepublish": "tsc -b",
-  "prepublishOnly": "tslint -b ./ && jest",
-  "scripts": {
-    "build": "tsc -b",
-    "test": "jest --verbose false --silent=false ./src/*.test.js",
-    "lint": "eslint . --ext .ts",
-    "clean": "rm -rf ./dist && rm -rf tsconfig.tsbuildinfo"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ln1778/hwa-ripple-address-codec/issues"
   },
-  "prettier": "@xrplf/prettier-config",
-  "engines": {
-    "node": ">= 10"
-  }
+  "homepage": "https://github.com/ln1778/hwa-ripple-address-codec#readme"
 }
